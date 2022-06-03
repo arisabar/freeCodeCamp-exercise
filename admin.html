@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            text-align: center;
+            padding: 2rem;
+        }
+
+        #text {
+            width: 20rem;
+            height: 2rem;
+            border-radius: 20px;
+            font-size: medium;
+            padding-left: 1rem;
+        }
+
+        #submit {
+            width: 5rem;
+            height: 2.5rem;
+            font-size: medium;
+            border-radius: 20px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Admin Panel</h2>
+
+    <input id="yearInput" type="number" name="number" placeholder="enter text here">
+    <textarea name="post" id="text" cols="30" rows="10"></textarea>
+    <input id="submit" type="submit">
+
+    <div id="posts">
+        <div>
+            <p>Hello world post 1</p>
+            <span class="options">
+                <i class="fas fa-edit"></i>
+                <i class="fas fa-trash-alt"></i>
+            </span>
+        </div>
+
+        <div>
+            <p>Hello world post 2</p>
+            <span class="options">
+                <i class="fas fa-edit"></i>
+                <i class="fas fa-trash-alt"></i>
+            </span>
+        </div>
+    </div>
+    <script src="./js/admin.js"></script>
+</body>
+
+</html>
